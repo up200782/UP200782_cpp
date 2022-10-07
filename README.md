@@ -10,7 +10,9 @@ int main ()
     cout<< "Hola mundo cruel";
     return 0;
 }  
-```
+``` 
+![Hola mundo](Hola%20%20mundo.png)  
+2. 
  
 
 
