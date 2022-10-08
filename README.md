@@ -1,6 +1,8 @@
 # UP200782_cpp  
 Jorge Antonio Ruiz Esparza Galván  
 >Unidad 1  
+En este README se podrán ver todos los programas que se han estado realizando para la unidad 1. Todos en su totalidad están hechos en el lenguaje de C++  
+  
 1. Hola mundo  
 ```   
    #include <iostream>
