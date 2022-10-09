@@ -4,7 +4,7 @@ Jorge Antonio Ruiz Esparza Galván
 En este README se podrán ver todos los programas que se han estado realizando para la unidad 1. Todos en su totalidad están hechos en el lenguaje de C++  
 
 
-![Link](Link.gif)   
+![Link](Link.gif)
 
 
 # 1. Hola mundo  
@@ -17,7 +17,8 @@ int main ()
     return 0;
 }  
 ``` 
-![Hola mundo](Hola%20%20mundo.png)  
+![Hola](Hola%20%20mundo.png)  
+
 # 2. Pares  
 ```
 #include <iostream>
@@ -133,8 +134,9 @@ int main()
 }
 ```  
 ![Edades](Imagenes.png)  
+![Toon](Toon.gif)  
 
-![Toon](Toon.gif) 
+
 
 
 
