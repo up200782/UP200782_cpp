@@ -133,7 +133,7 @@ int main()
 ```  
 ![Edades](Imagenes.png)  
 
-![Toon](Toon.gif)
+![Toon](Toon.gif) 
 
 
 
