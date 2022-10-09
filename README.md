@@ -7,7 +7,7 @@ En este README se podrán ver todos los programas que se han estado realizando p
 ![Link](Link.gif)   
 
 
-1. Hola mundo  
+# 1. Hola mundo  
 ```   
    #include <iostream>
 using namespace std;
@@ -18,7 +18,7 @@ int main ()
 }  
 ``` 
 ![Hola mundo](Hola%20%20mundo.png)  
-2. Pares  
+# 2. Pares  
 ```
 #include <iostream>
 using namespace std;
@@ -43,7 +43,7 @@ int main(int argc, char const* argv[])
 // Jorge Antonio Ruiz Esparza Galván, UP200782
 ```  
 ![Pares](Pares.png) 
-3. Datos  
+# 3. Datos  
 ```  
 // manejo de entradas y salidas
 #include <iostream>
@@ -71,7 +71,7 @@ int main(int argc, char const *argv[])
 //Jorge Antonio Ruiz Esparza Galván, UP200782  
 ``` 
 ![Datos](Datos.png)  
-4. Contador  
+# 4. Contador  
 ```  
 #include <iostream>
 using namespace std;
@@ -98,7 +98,7 @@ int main(int argc, char const *argv[])
 //Jorge Antonio Ruiz Esparza Galván, UP200782  
 ```  
 ![Contador](Contador.png)  
-5. Edades  
+# 5. Edades  
 ```  
 #include <iostream>
 using namespace std;
