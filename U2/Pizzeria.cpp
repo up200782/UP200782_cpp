@@ -41,7 +41,7 @@ int main()
         switch (a)
         {
         case 1:
-            cout << "Tu pizza es carnivora y lleva mozzarella, tomate y Peperoni << endl";
+            cout << "Tu pizza es carnivora y lleva mozzarella, tomate y Peperoni" << endl;
 
             break;
         case 2:
