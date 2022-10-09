@@ -98,6 +98,7 @@ int main(int argc, char const *argv[])
 //Jorge Antonio Ruiz Esparza Galván, UP200782  
 ```  
 ![Contador](Contador.png)  
+
 # 5. Edades  
 ```  
 #include <iostream>
