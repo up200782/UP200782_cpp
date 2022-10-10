@@ -1,20 +1,37 @@
 #include <iostream>
 using namespace std;
-int main()
-{
-    int temp1, temp2, temp3, temp4, temp5, temp6;
-    cout << "Ingresa una temperatura" << endl;
-    cin >> temp1;
-    cout << "Ingresa otra temperatura" << endl;
-    cin >> temp2;
-    cout << "Ingresa otra temperatura" << endl;
-    cin >> temp3;
-    cout << "Ingresa otra temperatura" << endl;
-    cin >> temp4;
-    cout << "Ingresa otra temperatura" << endl;
-    cin >> temp5;
-    cout << "Ingresa otra temperatura" << endl;
-    cin >> temp6;
 
+float numeros[6];
+float menor;
+float mayor;
+float suma;
 
+int main() {
+
+  for (int i = 0 ; i<= 5 ; i++)
+    {
+      cout << "Escribe un numero: " << endl;
+      cin >> numeros[i];
+    }
+  mayor = numeros[0];
+  menor = numeros[0];  
+  for (int i = 0 ; i<= 5 ; i++)
+    {      
+      if (mayor > numeros [i]) 
+      {
+        mayor = numeros[i];
+      }
+      if(menor < numeros [i])
+      {
+        menor = numeros[i];
+      }
+    }
+    for (int i = 0 ; i<= 5 ; i++)
+    {
+        suma = numeros[i] + suma;
+    }
+  cout << "La temperatura menor es de: " <<mayor<< endl;
+  cout << "El numero mayor es de: " <<menor<< endl; 
+  cout << "El promedio es: " << suma/6 << "grados" << endl; 
+  return 0;
 }
