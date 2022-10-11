@@ -31,6 +31,6 @@ int main()
         }
     }
     cout << "El impuesto es de: " << impuesto << endl;
-    cout << "El pago total es de: " << renta * impuesto + renta;
+    cout << "El pago total es de: " << renta * impuesto + renta << endl;
     return 0;
 }
