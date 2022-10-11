@@ -32,6 +32,6 @@ int main() {
     }
   cout << "La temperatura menor es de: " <<mayor<< endl;
   cout << "El numero mayor es de: " <<menor<< endl; 
-  cout << "El promedio es: " << suma/6 << "grados" << endl; 
+  cout << "El promedio es: " << suma/6 << endl; 
   return 0;
 }

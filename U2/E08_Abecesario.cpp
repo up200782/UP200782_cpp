@@ -4,7 +4,7 @@ using namespace std;
     char letra = 'A';
     for (int i = 0; i < 26; i++)
     {
-        printf ("%c",letra \endl); 
+        cout << letra << endl;
         letra = letra + 1;
 
     }
