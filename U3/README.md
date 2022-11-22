@@ -1,6 +1,8 @@
 # UNIT 3 
 Jorge Antonio Ruiz Esparza Galván 
 # In this unit we did a lot of programs using the new functions and facilities that the teacher taught us. 
+![Sora1](Imagenes/Sora1.gif) 
+
 On this readme i will put 9 programs we made during the class 
 # 1 Bisección 
 ```
@@ -171,6 +173,135 @@ int main(){
 }
 ``` 
 ![Moneda](Imagenes/Moneda.png) 
+# 6 Numeros romanos
+``` 
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n;
+    int v;
+    int romanos[]={1000,900,500,400,100,90,50,40,10,9,5,4,1};
+    string NR[]={"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
+    string numero="";
+    int i=0;
+    cout << "Escribe el numero a convertir: " << endl;
+    cin >> n;
+    while(n>0)
+    {
+        if (n>=romanos[i])
+        {
+            v=n/romanos[i];
+            n=n%romanos[i];
+            for (int j = 0; j < v; j++)
+            {
+                numero=numero+NR[i];
+            }
+        }
+        i++;
+    }
+    cout<<numero;
+    return 0;
+} 
+``` 
+![Numerosrom](Imagenes/Numerosrom.png) 
+# 7 RFC 
+``` 
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main(){
+    string nombre="Carlos";
+    string AP="Esparza";
+    string AM="Lopez";
+    string fe="17/11/2022";
+    string rfc="";
+    int v=nombre.length(); 
+    int p=0;
+    AP[0]=tolower(AP[0]);
+    
+    for (int i = 0; i < v && p<2; i++)
+    {
+        if (AP[i]=='a' || AP[i]=='e' || AP[i]=='i' || AP[i]=='o' || AP[i]=='u' )
+        {
+            rfc=rfc+AP[i];
+            p++;
+        }  
+    }
+    AP[0]=toupper(AP[0]);
+
+    int d1=fe.find_last_of("/");
+    int d2=fe.find("/");
+    rfc=rfc+AM[0]+nombre[0]+fe.substr(d1+1,4)+fe.substr(d2+1,2)+fe.substr(0,2);
+    
+    v=rfc.length();
+    for (int i = 0; i < v; i++)
+    {
+        rfc[i]=toupper(rfc[i]);
+    }
+    cout<<nombre<<" RFC: "<<rfc;
+    return 0;
+}
+``` 
+![RFC](Imagenes/RFC.png) 
+# 8 Vector 
+For this program I used the metod of bubble accommodation and its function is to compare 2 values and them changes in case to be necesary. The program ends once all the numbres are in order.
+``` 
+#include <iostream>
+using namespace std;
+
+void Ordenar(int x[],int v){
+    int m,s,c;
+    do{
+        c=0;
+        for (int i = 0; i < v; i++)
+        {
+            s=i+1;
+            if (x[i]>x[s])
+            {
+                m=x[s]; x[s]=x[i]; x[i]=m;
+                c++;
+            }   
+        }
+        
+    } while(c>0);
+}
+
+int main(){
+    int c[]={9,8,7,6,5,4,3,2,1,0};
+    int n=sizeof(c)/4;
+    Ordenar(c,n);
+    for (int i = 0; i < n; i++)
+    {
+        cout<<c[i]<<endl;
+    }
+    return 0;
+} 
+``` 
+![Ordenvec](Imagenes/Ordenvec.png) 
+# 9 Funcion factorial 
+``` 
+#include <iostream>
+using namespace std;
+
+double factorial(int numero){
+    if (numero == 1){
+        return 1;
+    }else{
+        return numero*factorial(numero-1);
+    }
+}
+
+int main(){
+    int n=6, f;
+    f=factorial(n);
+    cout<<"El factorial de "<<n<<" es "<<f;
+} 
+``` 
+![Funcion](Imagenes/Funcionfact.png) 
+![Sora2](Imagenes/Sora2.gif) 
+
 
 
 
