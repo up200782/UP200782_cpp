@@ -1,7 +1,7 @@
 # Devloping a game on UNITY
 Students: Jorge Antonio Ruiz Esparza Galván and Jose Alberto Flores Martinez  
 # For the final project, we finished the Tetris we have been developing since the beginning of the quarter. The game was made on the program "UNITY" and with the C# lenguaje.  
-The flow chart of the game is divided in two parts:  
+The flow chart of the game is divided in three parts:  
   
 
 This parts represents how the lines are erased once you make a TETRIS  
