@@ -12,7 +12,7 @@ This part represents the inputs of the game
 
 This parts represents the appearance of the tetrominos  
 ![Tetrominos](Imagenes/generador.png)  
-# Hereyou can see the code of the game. The code has been divided in two parts, the logic of the terominos, and the logic of the generator.  
+# Here you can see the code of the game. The code has been divided in two parts, the logic of the terominos, and the logic of the generator.  
 Tetrominos logic:  
 ```  
 using System.Collections;
