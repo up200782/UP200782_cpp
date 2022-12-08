@@ -13,4 +13,4 @@ int main(){
     int n = 6, f;
     f=factorial(n); 
     cout<<"El factorial de "<<n<<" es "<<f;
-}
+} 
