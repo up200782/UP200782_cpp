@@ -186,7 +186,7 @@ public class LogicaGenerador : MonoBehaviour
     }
 }  
 ```  
-# In this part we will include a small summary of how the code is structured  
+# A PDF with all the code review is in the unit 4 
 
 
 
